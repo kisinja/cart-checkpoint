@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <center>
+        <h1>Shopping Cart</h1>
+    </center>
+    <div class="cart">
+        <div class="item">
+            <div class="product-container">
+                <img src="https://i.pinimg.com/564x/35/63/6a/35636a851019f52cdecfab2031d9c146.jpg" alt="product image">
+                <span class="product" style="text-align: center;margin: 10px;">Microphone</span>
+                <div class="total">Total: <span id="total-price">$100</span></div>
+            </div>
+            <div class="actions">
+                <button class="adjust-quantity">+</button>
+                <span class="quantity">1</span>
+                <button class="adjust-quantity">-</button>
+            </div>
+            <div class="lower">
+                <button class="delete">Delete</button>
+                <button class="like">❤️</button>
+                <span class="price">$100</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
